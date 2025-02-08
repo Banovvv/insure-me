@@ -3,6 +3,7 @@ import Home from "./pages/home";
 import NotFound from "./pages/not-found";
 import VehicleInsurance from "./pages/vehicle-insurance";
 import HealthInsurance from "./pages/health-insurance";
+import GoalTracker from "./pages/goal-tracker";
 
 const Layout = () => {
   return (
@@ -29,6 +30,10 @@ const router = createBrowserRouter(
         {
           path: '/life-insurance',
           element: <HealthInsurance />
+        },
+        {
+          path: '/goal-tracker',
+          element: <GoalTracker />
         },
         {
           path: '*',

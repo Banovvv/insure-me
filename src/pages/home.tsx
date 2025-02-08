@@ -9,6 +9,7 @@ function Home() {
                 <div style={{ display: 'flex', justifyContent: 'center', gap: 10 }}>
                     <Link to='/vehicle-insurance' className='primary-button' type="button">Vehicle Insurance</Link>
                     <Link to='/life-insurance' className='primary-button' type="button">Health Insurance</Link>
+                    <Link to='/goal-tracker' className='secondary-button' type="button">Goal Tracker</Link>
                     {/* <Link to='/home-insurance' className='primary-button' type="button">Home Insurance</Link>
                     <Link to='/life' className='primary-button' type="button">Life Insurance </Link> */}
                 </div>
